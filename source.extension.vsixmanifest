@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" ?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="SimonFishTemplateExtension.a9659be7-93f2-480e-aa1c-e3595181f0ac" Version="1.0.0.0" Language="en-US" Publisher="Simon FIsh inc." />
+        <Identity Id="SimonFishTemplateExtension" Version="1.0.0.1" Language="en-US" Publisher="Simon Fish inc." />
         <DisplayName>Clean Code Api Example</DisplayName>
         <Description xml:space="preserve">Clean Code Api Example .NET 8 (or later, adaptable version) Project Type: ASP.NET Core Web API Description: This template provides a solid foundation for developing RESTful Web APIs using a simplified Clean Code architecture. It organizes the project into logical layers to promote separation of concerns, testability, and maintainability. Ideal for developers seeking a clear and structured starting point for their APIs.</Description>
         <MoreInfo>https://simonfishinc.com/</MoreInfo>
@@ -17,7 +17,7 @@
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
     </Dependencies>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" TargetVersion="1.0.0.0" d:TargetPath="ProjectTemplates\ApiCleanCode.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" TargetVersion="1.0.0.1" d:TargetPath="ProjectTemplates\ApiCleanCode.zip" />
     </Assets>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
